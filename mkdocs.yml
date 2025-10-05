@@ -1,0 +1,49 @@
+
+site_name: AWS SAA Study Hub
+site_description: Timeline-based plan, progress tracking, learning notes, and references
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - scheme: default
+nav:
+  - Home: index.md
+  - Timeline: timeline.md
+  - Progress: progress.md
+  - Notes:
+      - VPC: notes/vpc-basics.md
+      - DynamoDB: notes/dynamodb.md
+      - IAM: notes/iam.md
+  - References: references/index.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.tasklist
+  - pymdownx.critic
+  - pymdownx.arithmatex
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.emoji
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+extra:
+  generator: false

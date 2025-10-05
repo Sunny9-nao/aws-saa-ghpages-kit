@@ -38,9 +38,7 @@
 2. 1 日 30〜60 分、ping-t と書籍を並行して進める
 3. 学習ごとに `progress.csv` に記録（実績・スコア）
 4. 理解を深めたいテーマは `docs/notes/` に Markdown で追記
-5. 週末：
-   - `scripts/build_weekly_summary.py` で進捗サマリー更新
-   - PDF や資料を `docs/references/` に追加（自動で一覧化）
+5. 週末：`scripts/build_weekly_summary.py` で進捗サマリー更新
 
 ### 📈 目標
 

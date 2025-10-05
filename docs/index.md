@@ -1,17 +1,48 @@
-
 # AWS SAA Study Hub
 
 このサイトは **GitHub Pages** 上で、学習計画・進捗・理解ノート・参考資料をまとめて管理するテンプレートです。
 
-- 📅 [Timeline](timeline.md)：3ヶ月タイムライン＋チェックリスト
-- 📈 [Progress](progress.md)：CSVから自動生成される週次サマリー
+- 📅 [Timeline](timeline.md)：3 ヶ月タイムライン＋チェックリスト
+- 📈 [Progress](progress.md)：CSV から自動生成される週次サマリー
 - 🗒️ Notes：自由にテーマ別ノートを追加（`docs/notes/` 配下）
-- 📚 [References](references/index.md)：PDF等の参考資料を自動一覧化
+- 📚 [References](references/index.md)：PDF 等の参考資料を自動一覧化
 
 ---
 
 ## 運用の流れ
+
 1. `progress.csv` に学習実績を追記
 2. 苦手・理解メモは `docs/notes/xxx.md` を追加
-3. 参考PDFは `docs/references/` に置くだけ（自動で一覧更新）
-4. PushするとActionsがサイトをビルド・公開
+3. 参考 PDF は `docs/references/` に置くだけ（自動で一覧更新）
+4. Push すると Actions がサイトをビルド・公開
+
+---
+
+## 🧰 使用ツールと学習方法
+
+この学習サイトでは、以下のツールと方法を組み合わせて AWS SAA 合格を目指します。
+
+| 分類                 | ツール / サービス                                                        | 用途                                      |
+| -------------------- | ------------------------------------------------------------------------ | ----------------------------------------- |
+| 学習プラットフォーム | **ping-t**                                                               | 問題演習と解説で知識定着                  |
+| 書籍                 | **徹底攻略 AWS 認定 ソリューションアーキテクト–アソシエイト（第 3 版）** | 理論・用語整理                            |
+| AWS 環境             | **無料枠アカウント**                                                     | ハンズオン検証（IAM, VPC, S3, Lambda 等） |
+| 進捗管理             | `progress.csv` + GitHub Actions                                          | 学習時間・正答率を記録、自動サマリー生成  |
+| 理解ノート           | `docs/notes/` フォルダ                                                   | 苦手分野や学び直しメモを随時追加          |
+| 参考資料             | `docs/references/`                                                       | 公式 PDF・設計ガイドを格納、自動一覧生成  |
+| 公開                 | **GitHub Pages + MkDocs Material**                                       | タイムライン・進捗・ノートを Web で可視化 |
+
+### 💡 学習の進め方
+
+1. まずは `docs/timeline.md` の週次スケジュールを確認
+2. 1 日 30〜60 分、ping-t と書籍を並行して進める
+3. 学習ごとに `progress.csv` に記録（実績・スコア）
+4. 理解を深めたいテーマは `docs/notes/` に Markdown で追記
+5. 週末：
+   - `scripts/build_weekly_summary.py` で進捗サマリー更新
+   - PDF や資料を `docs/references/` に追加（自動で一覧化）
+
+### 📈 目標
+
+- 12 週間で AWS SAA 合格ライン（スコア 720 以上）を安定して取る
+- 「設計判断を 6 本柱（WAF）」で説明できる状態を目指す

@@ -29,6 +29,9 @@ jobs:
       - name: Generate weekly summary from progress.csv
         run: |
           python scripts/build_weekly_summary.py
+      - name: Generate Notes index
+        run: |
+          python scripts/build_notes_index.py
       - name: Generate References index from PDFs
         run: |
           python scripts/build_references_index.py

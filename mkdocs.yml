@@ -1,4 +1,3 @@
-
 site_name: AWS SAA Study Hub
 site_description: Timeline-based plan, progress tracking, learning notes, and references
 theme:
@@ -15,10 +14,7 @@ nav:
   - Home: index.md
   - Timeline: timeline.md
   - Progress: progress.md
-  - Notes:
-      - VPC: notes/vpc-basics.md
-      - DynamoDB: notes/dynamodb.md
-      - IAM: notes/iam.md
+  - Notes: notes/index.md
   - References: references/index.md
 markdown_extensions:
   - admonition

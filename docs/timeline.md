@@ -1,8 +1,7 @@
-
 # Timeline
 
-!!! tip "Mermaidでタイムライン表示"
-    下のガントチャートは **Mermaid** で描画されます。
+!!! tip "Mermaid でタイムライン表示"
+下のガントチャートは **Mermaid** で描画されます。
 
 ```mermaid
 gantt
@@ -33,8 +32,9 @@ gantt
 ```
 
 ## 週次チェックリスト
-- [ ] Week1-2：IAM 30〜50問 + 書籍1〜2回転
-- [ ] Week3-4：VPC 50〜70問 + ハンズオン
+
+- [ ] Week1-2：IAM 30〜50 問 + 書籍 1〜2 回転
+- [ ] Week3-4：VPC 50〜70 問 + ハンズオン
 - [ ] Week5：S3/EBS/可用性
 - [ ] Week6：Compute
 - [ ] Week7-8：DB（RDS/Aurora/DynamoDB）

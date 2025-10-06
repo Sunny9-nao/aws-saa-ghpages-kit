@@ -1,10 +1,10 @@
 # AWS SAA Study Hub
 
-このサイトは **GitHub Pages** 上で、学習計画・進捗・理解ノート・参考資料をまとめて管理するテンプレートです。
+このサイトは AWS SAA 合格にむけた学習計画・進捗・理解ノート・参考資料をまとめて管理するテンプレートです。
 
 - 📅 [Timeline](timeline.md)：3 ヶ月タイムライン＋チェックリスト
 - 📈 [Progress](progress.md)：CSV から自動生成される週次サマリー
-- 🗒️ Notes：自由にテーマ別ノートを追加（`docs/notes/` 配下）
+- 🗒️ [Notes](notes/index.md)：自由にテーマ別ノートを追加
 - 📚 [References](references/index.md)：PDF 等の参考資料を自動一覧化
 
 ---

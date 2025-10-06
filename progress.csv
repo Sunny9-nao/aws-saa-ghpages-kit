@@ -1,2 +1,3 @@
 date,week,topic,planned_hours,actual_hours,pingt_score,mock_score,questions_answered,questions_correct,status,notes
 2025-10-05,Week1-2,AWSクラウドの基本（クラウドとオンプレの違いと責任共有モデル）,1.5,1.5,100,,18,18,learning,"責任共有モデルの理解がかなり怪しい"
+2025-10-06,Week1-2,AWS EC2について,1.5,1.5,100,,23,23,learning,"全体的に理解は曖昧、インスタンスファミリーとプレイスメントグループの暗記が特に怪しい"
